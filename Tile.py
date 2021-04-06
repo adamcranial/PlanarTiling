@@ -23,7 +23,6 @@ class TileA:
             return '<polygon points=\"{},{} {},{} {},{} {},{} {},{} {},{}\" style=\"fill:yellow; stroke:black; stroke-width:1\"/>'.format(self.x,self.y,
                                                                                                                                           self.x,self.y+self.size,
                                                                                                                                           self.x+self.size, self.y+self.size,
-                                                                                                                                          self.x+self.size,self.y+(self.size/2),
                                                                                                                                           self.x + (self.size/2),self.y+(self.size/2),
                                                                                                                                           self.x + (self.size/2),self.y)
 
